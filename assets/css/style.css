@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.outer-border {
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 415px;
+    height: 215px;
+    padding: 5px;
+    text-align: center;
+}
+
+.inner-border {
+    width: auto;
+    height: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.hr-1 {
+    width: 50px;
+}
+
+.hr-2 {
+    width: 80%;
+}
+
+.soy {
+    margin: 25px 0 3px 0;
+    padding-top 20px
+}
+
+.bristol {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
