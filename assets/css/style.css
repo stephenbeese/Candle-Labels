@@ -1,26 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Tangerine&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Cormorant', serif;
 }
 
 .container {
     margin: 0 auto;
-    padding: 50px;
+    padding: 120px;
 }
 
 .outer-border {
     position: absolute;
     border: solid 2px black;
     border-radius: 10px;
-    width: 415px;
-    height: 215px;
+    width: 350px;
+    height: 180px;
     padding: 5px;
     text-align: center;
 }
 
 .inner-border {
     width: auto;
-    height: 90%;
+    height: -webkit-fill-available;
     margin: 0 auto;
     padding: 10px;
     position: relative;
@@ -30,15 +33,17 @@ body {
 
 .hr-1 {
     width: 50px;
+    margin: 0 auto 10px auto;
 }
 
 .hr-2 {
     width: 80%;
+    margin: 0 auto;
 }
 
 .soy {
-    margin: 25px 0 3px 0;
-    padding-top 20px
+    margin: 5px 0 0 0;
+    /* padding-top: 20px; */
 }
 
 .bristol {
@@ -46,9 +51,22 @@ body {
 }
 
 h1 {
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
+    font-family: 'Tangerine', cursive;
+    font-size: 3.7em;
+    font-weight: 400;
 }
 
 h2 {
-    margin-top: 0;
+    margin: 0 0 10px 0;
+    font-size: 1.7em;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.name {
+    width: auto;
 }
