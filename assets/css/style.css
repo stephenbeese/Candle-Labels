@@ -8,31 +8,38 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 120px;
+    padding-bottom: 600px;
 }
 
 .outer-border {
     position: absolute;
-    border: solid 2px black;
-    border-radius: 10px;
-    width: 350px;
-    height: 180px;
-    padding: 5px;
+    border: solid 7px black;
+    border-radius: 25px;
+    width: 1000px;
+    height: 500px;
+    padding: 15px;
     text-align: center;
+    display: inline-block;
+    margin: 50px 0 0 150px
 }
 
 .inner-border {
     width: auto;
     height: -webkit-fill-available;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
     position: relative;
-    border: solid 2px black;
-    border-radius: 10px;
+    border: solid 7px black;
+    border-radius: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
 }
 
 .hr-1 {
-    width: 50px;
+    width: 100px;
     margin: 0 auto 10px auto;
 }
 
@@ -42,8 +49,7 @@ body {
 }
 
 .soy {
-    margin: 5px 0 0 0;
-    /* padding-top: 20px; */
+    margin: 40px 0 0 0;
 }
 
 .bristol {
@@ -51,22 +57,28 @@ body {
 }
 
 h1 {
-    margin: 10px 0 0 0;
+    margin: 50px 0 0 0;
     font-family: 'Tangerine', cursive;
-    font-size: 3.7em;
+    font-size: 10.7em;
     font-weight: 400;
 }
 
 h2 {
-    margin: 0 0 10px 0;
-    font-size: 1.7em;
+    margin: 0px 0 15px 0;
+    font-size: 4.7em;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 2.3em;
     font-weight: bold;
 }
 
-.name {
-    width: auto;
+
+#coconut {
+    font-size: 7.9em;
+    margin-top: 70px;
+}
+
+#coconut-p {
+    margin-top: 65px;
 }
