@@ -82,3 +82,19 @@ p {
 #coconut-p {
     margin-top: 65px;
 }
+
+#queen {
+    position: relative;
+    top: -15px;
+}
+
+#queen + hr {
+    position: relative;
+    top: -15px;
+}
+
+#bee {
+    height: 134px;
+    position: relative;
+    top: -6px;
+}
